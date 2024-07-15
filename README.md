@@ -1,2 +1,4 @@
 # basic_digital_systems
-Verilog code for basic digital systems and modules.
+
+Verilog codes for basic digital systems and modules.
+These codes are open-Source.
