@@ -1,14 +1,14 @@
 /* ----- ----- ----- ----- ----- -----
 	Design: 4bit sign-magnitude to 2's complement
 			By using primitives -- TESTBENCH
- 	Filename: sm-to-2comp_tb.v
+ 	Filename: sm_to_2comp_4bit_tb.v
 	Coder: Gabriel Maruschi
  	Versions: /july_2024/
 	----- ----- ----- ----- ----- -----
 */ 
 
 `timescale 1 ns/100 ps
-`include "sm-to-2comp.v"
+`include "sm_to_2comp_tb.v"
 
 module sm_to_2comp_tb;
 integer i;
@@ -30,7 +30,7 @@ initial begin
         aux = aux + 'b0001;
         #20;
     end
-    $display("Teste completo");
+	$display("Test completed");
 end
 
 endmodule
