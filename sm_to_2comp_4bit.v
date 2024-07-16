@@ -1,7 +1,7 @@
 /* ----- ----- ----- ----- ----- -----
 	Design: 4bit sign-magnitude to 2's complement
 			By using primitives
- 	Filename: sm_to_2comp.v
+ 	Filename: sm_to_2comp_4bit.v
 	Coder: Gabriel Maruschi
  	Versions: /july_2024/
 	----- ----- ----- ----- ----- -----
