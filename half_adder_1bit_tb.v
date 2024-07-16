@@ -29,7 +29,7 @@ initial begin
         aux = aux + 'b01;
         #20;
     end
-    $display("Teste completo");
+	$display("Test completed");
 end
 
 endmodule
