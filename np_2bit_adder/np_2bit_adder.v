@@ -7,6 +7,7 @@
 */ 
 
 module np_2bit_adder (co, s, a, b);
+// module recieves two 2bit wires (a, b) and outputs a two bit wire for the sum (s) and a carry-out(co) which is the more significative bit of the output
 output [1:0]s;   // s: sum; co: carry out;
 output co;
 input [1:0] a, b;    // (a, b): 2-bit input; 
